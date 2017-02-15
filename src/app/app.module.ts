@@ -5,10 +5,9 @@ import { HttpModule } from '@angular/http'
 
 import { AppComponent }  from './app.component';
 import { GithubComponent } from './components/github.component';
-import { route } from './app.routes';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpModule, route ],
+  imports:      [ BrowserModule, FormsModule, HttpModule ],
   declarations: [ AppComponent, GithubComponent ],
   bootstrap:    [ AppComponent ]
 })
